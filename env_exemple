@@ -1,0 +1,7 @@
+DB_HOST = your_host
+DB_USER = your_database_user
+DB_PASSWORD = your_database_password
+DB_DATABASE = your_database_name
+
+JWT_KEY = any_key
+BCRYPT_ROUNDS = any_rounds_number
