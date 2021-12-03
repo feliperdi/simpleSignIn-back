@@ -26,8 +26,9 @@ the data format in use is JSON
  ### "/signIn"
  
  data: {
-   "email": "exemple@email.com",
-   "password": "12345678" 
+    "email": "exemple@email.com",
+    "password": "12345678",
+    "role": "USER"
  }
  
  response: {
@@ -39,7 +40,8 @@ the data format in use is JSON
  
  data: {
    "email": "exemple@email.com",
-   "password": "12345678" 
+   "password": "12345678",
+   "role": "USER"
  }
  
  response: {
@@ -53,7 +55,8 @@ the data format in use is JSON
  
 data: {
    "email": "exemple@email.com",
-   "password": "12345678" 
+   "password": "12345678"
+   "role": "USER"
 }
  
 response: this endpoint offers no significant response.
