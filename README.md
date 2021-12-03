@@ -5,6 +5,10 @@ this is my first application. It's was made to be simple as possible. It's able 
 
 ### status: complete.
 
+### What have I learned from this project ?
+The first thing that I noticed was the importance of not dealing with passwords and authentications. I realized that would be better if I delegated those functions and I didn't do because one of the goals of this project was to deal with those stuff myself.
+
+
 ### Technologies that I used:
  + nodeJs 16.11
  + express 4.17
@@ -17,8 +21,9 @@ this is my first application. It's was made to be simple as possible. It's able 
  ### End Points
 the data format in use is JSON
 
- ### post ('/signIn'): 
+ ### Post: 
  
+ ### "/signIn"
  
  data: {
    "email": "exemple@email.com",
@@ -30,7 +35,8 @@ the data format in use is JSON
    "token": "jwt_token_exemple"
  }
  
- ### post ('/signUp'): 
+ ### "/signUp": 
+ 
  data: {
    "email": "exemple@email.com",
    "password": "12345678" 
@@ -41,6 +47,16 @@ the data format in use is JSON
    "token": "jwt_token_exemple"
  }
  
+ ### Delete: 
+ 
+ ### "/"
+ 
+data: {
+   "email": "exemple@email.com",
+   "password": "12345678" 
+}
+ 
+response: this endpoint offers no significant response.
  
  ### How to run the application:
  You will need  nodeJs 16.11 and npm to run this application.
