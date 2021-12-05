@@ -39,6 +39,14 @@ export default class UserController {
         }
     };
 
+    public async test(req: Request, res: Response): Promise<void> {
+        try {
+            res.sendStatus(200);
+        } catch(error: any) {
+            res.status(error.httpCode).send(error.message);
+        }
+    };
+
     public async deleteUser(req: Request, res: Response): Promise<void> {
         try {
             const userBusiness = new UserBusines();
