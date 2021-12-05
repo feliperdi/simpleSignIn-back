@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserModelDTO = exports.UserModel = exports.UserRole = void 0;
 var UserRole;
 (function (UserRole) {
     UserRole["admin"] = "ADMIN";

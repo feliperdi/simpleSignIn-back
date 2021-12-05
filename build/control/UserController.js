@@ -37,6 +37,15 @@ class UserController {
         }
     }
     ;
+    async test(req, res) {
+        try {
+            res.sendStatus(200);
+        }
+        catch (error) {
+            res.status(error.httpCode).send(error.message);
+        }
+    }
+    ;
     async deleteUser(req, res) {
         try {
             const userBusiness = new UserBusiness_1.default();

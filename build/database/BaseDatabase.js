@@ -8,7 +8,7 @@ class BaseDatabase {
     }
     getConection() {
         try {
-            this.connection = (0, knex_1.knex)({
+            this.connection = knex_1.knex({
                 client: "mysql",
                 connection: {
                     host: process.env.DB_HOST,

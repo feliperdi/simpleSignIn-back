@@ -15,7 +15,7 @@ app.use('/', userRouter);
 const server = app.listen(3000, () => {
     if(server) {
         const address = server.address() as AddressInfo;
-        console.log(`Server is running at http:localhost:${address.port}`);
+        console.log(`Server is running at http://localhost:${address.port}`);
     } else {
         console.log(`Failed to start the server`);
     }

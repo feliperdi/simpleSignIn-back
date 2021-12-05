@@ -8,5 +8,6 @@ const userController = new UserController();
 userRouter.post('/signUp', userController.createUser);
 userRouter.post('/signIn', userController.signIn);
 userRouter.delete('/', userController.deleteUser);
+userRouter.get("/", userController.test)
 
 export default userRouter

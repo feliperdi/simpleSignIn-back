@@ -10,4 +10,5 @@ const userController = new UserController_1.default();
 userRouter.post('/signUp', userController.createUser);
 userRouter.post('/signIn', userController.signIn);
 userRouter.delete('/', userController.deleteUser);
+userRouter.get("/", userController.test);
 exports.default = userRouter;
