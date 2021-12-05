@@ -3,7 +3,7 @@
 ### This is a simple rest api application made using NodeJs.
 this is my first application. It's was made to be simple as possible. It's able to perform basic CRUD operations. 
 
-### status: complete.
+### Status: complete.
 
 ### What have I learned from this project ?
 The first thing that I noticed was the importance of not dealing with passwords and authentications. I realized that would be better if I delegated those functions and I didn't do because one of the goals of this project was to deal with those stuff myself.
