@@ -11,6 +11,7 @@ The first thing that I noticed was the importance of not dealing with passwords 
 
 ### Technologies that I used:
  + nodeJs 16.11
+ + typescript
  + express 4.17
  + bcrypt 5.0
  + Mysql 2.8
