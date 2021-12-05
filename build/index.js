@@ -10,10 +10,10 @@ dotenv_1.default.config();
 const app = express_1.default();
 app.use(express_1.default.json());
 app.use('/', userRouter_1.default);
-const server = app.listen(3000, () => {
+const server = app.listen(process.env.port || 3000, () => {
     if (server) {
         const address = server.address();
-        console.log(`Server is running at http:/localhost:${address.port}`);
+        console.log(`Server is running at http://localhost:${address.port}`);
     }
     else {
         console.log(`Failed to start the server`);
